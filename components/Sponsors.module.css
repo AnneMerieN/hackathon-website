@@ -1,0 +1,71 @@
+.tierWrap {
+  margin-bottom: 44px;
+}
+
+.tierWrap:last-child {
+  margin-bottom: 0;
+}
+
+.tierHead {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.tierLabel {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.tierLine {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-card);
+  transition: border-color 0.22s, background 0.22s;
+  cursor: default;
+}
+
+.pill:hover {
+  border-color: var(--accent-border);
+  background: var(--bg-card-2);
+}
+
+.lg { width: 150px; height: 76px; }
+.md { width: 120px; height: 62px; }
+.sm { width: 96px;  height: 52px; }
+
+.bar {
+  width: 52%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+}
+
+.spName {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,68 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.text p {
+  color: var(--text-mid);
+  font-size: 0.95rem;
+  line-height: 1.85;
+  margin-bottom: 16px;
+}
+
+.text p:last-child {
+  margin-bottom: 0;
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.factRow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s;
+}
+
+.factRow:last-child {
+  border-bottom: none;
+}
+
+.factRow:hover {
+  background: var(--bg-card-2);
+}
+
+.factNum {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  min-width: 26px;
+}
+
+.factIco {
+  font-size: 1.1rem;
+  min-width: 26px;
+  text-align: center;
+}
+
+.factName {
+  font-size: 0.92rem;
+  font-weight: 700;
+  flex: 1;
+}
+
+.factDetail {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
