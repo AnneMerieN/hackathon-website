@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.logoMark {
+  width: 42px;
+  height: 42px;
+  color: var(--accent);
+}
+
+.logoName {
+  font-size: 1.15rem;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}

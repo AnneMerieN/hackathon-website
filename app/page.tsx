@@ -1,3 +1,4 @@
+import SiteHeader from '@/components/SiteHeader'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Events from '@/components/Events'
@@ -10,6 +11,7 @@ import ScrollReveal from '@/components/ScrollReveal'
 export default function Home() {
   return (
     <>
+      <SiteHeader />
       <Navbar />
       <ScrollReveal />
       <main>
